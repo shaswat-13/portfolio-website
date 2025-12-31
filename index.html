@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Shaswat's Portfolio</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo"><span>Shaswat</span></a>
+
+      <ul class="nav-links">
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#education">Education</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <a href="https://github.com/shaswat-13" target="_blank"
+        ><button class="visit-btn">Github</button></a
+      >
+    </header>
+
+    <section id="about" class="about">
+      <div class="about-container">
+        <img
+          src="handsome.HEIC"
+          alt="a charismatic guy looking dashing as always "
+        />
+        <div class="info-box">
+          <div class="text">
+            <h3>Hello! I am</h3>
+            <h1>Shaswat</h1>
+          </div>
+
+          <div class="btn-group">
+            <a href="shaswat_cv.pdf" download="shaswat_cv.pdf"
+              ><div class="button">Download CV</div></a
+            >
+            <a href="mailto:shswtsharma@gmail.com"
+              ><div class="button">Contact</div></a
+            >
+          </div>
+
+          <div class="socials">
+            <a href="https://github.com/shaswat-13" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/shaswat-sharma-0a6b76313/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://www.instagram.com/shaswat._x/" target="_blank"
+              ><i class="fa-brands fa-square-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-info">
+        <div class="grid">
+          <div class="grid-card">
+            <i class="fa-solid fa-c"></i>
+            <span>C/C++: Game Development</span>
+
+            <h3>2 years</h3>
+            <p>
+              C and C++ were my first programming languages, where I built a
+              strong foundation in programming fundamentals, object-oriented
+              design, file handling, and custom data structures using classes
+              and structs. I applied these skills by developing projects such as
+              a Hospital Management System, 2D space shooter game, and
+              graphics-based applications.
+            </p>
+          </div>
+          <div class="grid-card">
+            <i class="fa-brands fa-python"></i>
+            <span>Python: Data Science</span>
+
+            <h3>2 years</h3>
+            <p>
+              Python and data science are my strongest areas, with extensive
+              experience in data analysis, visualization, and machine learning.
+              I am proficient with libraries such as NumPy, Pandas, Matplotlib,
+              Seaborn, Plotly, and Scikit-learn, and I regularly work with data
+              manipulation, exploratory analysis, and building predictive
+              models.
+            </p>
+          </div>
+          <div class="grid-card">
+            <i class="fa-solid fa-microchip"></i>
+            <span>Arduino: Hardware</span>
+            <h3>1 year</h3>
+            <p>
+              I have hands-on experience building hardware systems using
+              Arduino, including a maze-navigating robot that integrates
+              sensors, PWM-controlled motors, LEDs, and other peripherals. I am
+              comfortable interfacing hardware components, controlling
+              actuators, and designing functional embedded systems, with a solid
+              understanding of microcontroller-based workflows.
+            </p>
+          </div>
+          <div class="grid-card">
+            <i class="fa-solid fa-code"></i>
+            <span>Web Development</span>
+            <h3>1 week</h3>
+            <p>
+              I am currently building my foundation in web development, focusing
+              on HTML, CSS, and backend-oriented concepts. I have developed a
+              Spanish web translator application and am actively working on
+              portfolio projects, steadily improving my frontend skills while
+              maintaining a strong interest in backend development and system
+              logic.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="section-title">Recent Projects</h2>
+
+      <div class="projects-grid">
+        <div class="projects-card">
+          <img
+            src="spanish-translator.png"
+            alt="Screenshot of a web-based Spanish translator application interface"
+          />
+          <h3>Spanish Translator</h3>
+          <p>
+            A web application built using HTML, CSS, and FastAPI that generates
+            a word of the day, random Spanish translations, and translates
+            user-input English words into Spanish.
+          </p>
+          <div class="btn-group">
+            <a
+              href="https://github.com/shaswat-13/Spanish_Translator_Web_App"
+              target="_blank"
+              ><div class="button">Github</div></a
+            >
+          </div>
+        </div>
+
+        <div class="projects-card">
+          <img
+            src="snake-game.png"
+            alt="Gameplay screen of a Python-based snake game with score display"
+          />
+          <h3>Snake Game</h3>
+          <p>
+            A classic snake game developed in Python where the score increases
+            as the snake eats food, with integrated background music and sound
+            effects.
+          </p>
+          <div class="btn-group">
+            <a href="https://github.com/shaswat-13/snake-game" target="_blank"
+              ><div class="button">Github</div></a
+            >
+          </div>
+        </div>
+
+        <div class="projects-card">
+          <img
+            src="iris-classification.png"
+            alt="Visualization of Iris dataset classification results"
+          />
+          <h3>Iris Dataset Classification</h3>
+          <p>
+            A machine learning classification project on the Iris dataset that
+            implements the ETL pipeline and model training to analyze and
+            predict flower species.
+          </p>
+          <div class="btn-group">
+            <a href="https://github.com/shaswat-13/iris" target="_blank"
+              ><div class="button">Github</div></a
+            >
+          </div>
+        </div>
+
+        <div class="projects-card">
+          <img
+            src="maze-robot.jpg"
+            alt="Arduino-based maze navigation robot with IR sensors"
+          />
+          <h3>Maze Navigation Robot</h3>
+          <p>
+            An Arduino-powered robot that navigates a maze by sensing its
+            surroundings using IR sensors and making movement decisions based on
+            real-time feedback.
+          </p>
+          <div class="btn-group">
+            <a
+              href="https://github.com/shaswat-13/Maze-navigating-robot"
+              target="_blank"
+              ><div class="button">Github</div></a
+            >
+          </div>
+        </div>
+
+        <div class="projects-card">
+          <img
+            src="space-invasion.jpg"
+            alt="2D space shooter game interface developed in C++"
+          />
+          <h3>Space Invasion</h3>
+          <p>
+            A 2D arcade-style space shooter game built in C++ that applies
+            object-oriented programming concepts to manage gameplay mechanics
+            and entities.
+          </p>
+          <div class="btn-group">
+            <a
+              href="https://github.com/sitish-123/Space-Invasion"
+              target="_blank"
+              ><div class="button">Github</div></a
+            >
+          </div>
+        </div>
+
+        <div class="projects-card">
+          <img src="pong.png" alt="Pong game interface implemented in C++" />
+          <h3>Pong</h3>
+          <p>
+            A C++ implementation of the classic Pong game focused on modular
+            design, header file organization, and structured project management.
+          </p>
+          <div class="btn-group">
+            <a href="https://github.com/shaswat-13/Pong" 
+            target="_blank"
+            ><div class="button">Github</div></a
+            >
+          </div>
+        </div>
+
+        <div class="projects-card">
+          <img
+            src="mimi-and-momo.png"
+            alt="Scratch game where a character catches falling objects"
+          />
+          <h3>Mimi and Momo</h3>
+          <p>
+            A Scratch-based game where the player controls Mimi to catch falling
+            Momos, designed to demonstrate basic game logic and event handling.
+          </p>
+          <div class="btn-group">
+            <a
+              href="https://github.com/shaswat-13/mimi-and-momo"
+              target="_blank"
+              ><div class="button">Github</div></a
+            >
+          </div>
+        </div>
+
+        <div class="projects-card">
+          <img
+            src="hospital-management.png"
+            alt="Command-line hospital management system interface"
+          />
+          <h3>Hospital Management System</h3>
+          <p>
+            A CLI-based hospital management system developed in C that performs
+            CRUD operations to manage patient and doctor records efficiently.
+          </p>
+          <div class="btn-group">
+            <a
+              href="https://github.com/shaswat-13/hospital_mgmt_system"
+              target="_blank"
+              ><div class="button">Github</div></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <h2 class="section-title">Education</h2>
+      <div class="education-info">
+        <div class="education-card">
+          <h3>Bachelors in Computer Engineering</h3>
+          <h4>IOE Thapathali Campus, Kathmandu</h4>
+          <h4>2024-2027</h4>
+        </div>
+        <div class="education-card">
+          <h3>High School/ +2 - Science (Biology Group)</h3>
+          <h4>SOS Hermann Gmeiner School, Bhaktapur</h4>
+          <h4>2020-2022</h4>
+        </div>
+        <div class="education-card">
+          <h3>SEE / Grade-10</h3>
+          <h4>Baba School, Kathmandu</h4>
+          <h4>2020</h4>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="input-box">
+        <input type="text" placeholder="Full Name" />
+        <input type="text" placeholder="name@example.com" />
+        <i class="fa-solid fa-envelope"></i>
+        <textarea placeholder="Message"></textarea>
+      </div>
+      <div class="btn-group">
+        <div class="button">Submit</div>
+      </div>
+    </section>
+
+    <footer>
+      <ul>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#education">Education</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
